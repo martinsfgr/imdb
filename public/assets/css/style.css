@@ -15,7 +15,6 @@ header {
 	justify-content: space-between;
 	padding: 20px;
 	position: relative;
-	z-index: 1;
 }
 
 header::after {
@@ -26,6 +25,10 @@ header::after {
 	position: absolute;
 	top: 0;
 	width: 100%;
+}
+
+header nav {
+	z-index: 2;
 }
 
 header nav .navbar-container {
@@ -44,6 +47,12 @@ header nav .navbar-container .navbar-items p {
 	font-weight: bold;
 	margin: 0 25px;
 	text-transform: uppercase;
+	transition: all 0.2s ease-in-out;
+}
+
+header nav .navbar-container .navbar-items p:hover {
+	color: #e4bb23;
+	cursor: pointer;
 }
 
 header nav .navbar-container .navbar-user {
@@ -66,6 +75,10 @@ header nav .navbar-container .navbar-user .user-photo img {
 header nav .navbar-container .navbar-user .user-name {
 	color: white;
 	font-weight: bold;
+}
+
+header .header-content {
+	z-index: 2;
 }
 
 header .header-content .header-container .film-title {
