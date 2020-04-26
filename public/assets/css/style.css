@@ -132,3 +132,29 @@ header .header-content .header-container .film-info p:first-child {
 header .header-content .header-container .film-info p:last-child {
 	color: #e4bb23;
 }
+
+section {
+	background-color: #f2f2f2;
+}
+
+section .catalog-menu .container .catalog-menu-list {
+	align-items: center;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+section .catalog-menu .container .catalog-menu-list .catalog-menu-items {
+	color: #e4bb23;
+	font-weight: bold;
+	margin: 0 20px;
+	padding: 25px 0;
+	text-transform: uppercase;
+}
+
+section .catalog-menu .container .catalog-menu-list .catalog-menu-items:hover {
+	border-bottom: 1px solid #e4bb23;
+	cursor: pointer;
+}
