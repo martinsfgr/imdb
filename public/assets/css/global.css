@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}

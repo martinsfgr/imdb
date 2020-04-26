@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+header {
+	background-attachment: fixed;
+	background-image: url("../img/capa-madmax2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	height: 90vh;
+	justify-content: space-between;
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+}
+
+header::after {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 212, 255, 0) 75%);
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+header nav .navbar-container {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav .navbar-container .navbar-items {
+	display: flex;
+}
+
+header nav .navbar-container .navbar-items p {
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 25px;
+	text-transform: uppercase;
+}
+
+header nav .navbar-container .navbar-user {
+	align-items: center;
+	display: flex;
+}
+
+header nav .navbar-container .navbar-user .user-photo {
+	height: 40px;
+	margin-right: 12px;
+	width: 40px;
+}
+
+header nav .navbar-container .navbar-user .user-photo img {
+	border-radius: 100%;
+	height: auto;
+	width: 100%;
+}
+
+header nav .navbar-container .navbar-user .user-name {
+	color: white;
+	font-weight: bold;
+}
+
+header .header-content .header-container .film-title {
+	color: white;
+	font-size: 72px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+header .header-content .header-container .film-genders {
+	margin: 15px 0 30px 0;
+}
+
+header .header-content .header-container .film-genders a {
+	color: white;
+	text-decoration: none;
+	margin-right: 12px;
+}
+
+header .header-content .header-container .trailer-button {
+	align-items: center;
+	background-color: #e4bb23;
+	border-radius: 40px;
+	color: black;
+	display: flex;
+	font-size: 18px;
+	justify-content: center;
+	max-width: 255px;
+	padding: 7px 35px;
+	text-decoration: none;
+}
+
+header .header-content .header-container .trailer-button:hover {
+	background-color: #c5a328;
+	cursor: pointer;
+}
+
+header .header-content .header-container .trailer-button img {
+	height: 40px;
+}
+
+header .header-content .header-container .film-info {
+	padding: 20px 0;
+}
+
+header .header-content .header-container .film-info p:first-child {
+	color: white;
+	margin: 7px 0;
+}
+
+header .header-content .header-container .film-info p:last-child {
+	color: #e4bb23;
+}
