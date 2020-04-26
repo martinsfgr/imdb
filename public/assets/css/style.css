@@ -159,6 +159,10 @@ section .catalog-menu .container .catalog-menu-list .catalog-menu-items:hover {
 	cursor: pointer;
 }
 
+section .container {
+	padding-bottom: 45px;
+}
+
 section .container .catalog-list-movies {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -243,5 +247,13 @@ section .container .catalog-list-movies .catalog-movie .movie-synopsis .movie-sy
 	font-size: 22px;
 	font-weight: bold;
 	justify-content: flex-end;
+	width: 100%;
+}
+
+footer {
+	background-color: #fff;
+	color: #bababa;
+	padding: 20px 0;
+	text-align: center;
 	width: 100%;
 }
